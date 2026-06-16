@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EventHub - Event Booking Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">EventHub</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Discover Amazing Events</h1>
+        <p>Book tickets for concerts, workshops, seminars and festivals.</p>
+        <a href="#events" class="btn">Explore Events</a>
+    </div>
+</section>
+
+<section class="categories">
+    <h2>Event Categories</h2>
+    <div class="category-container">
+        <div class="category-card">Music</div>
+        <div class="category-card">Technology</div>
+        <div class="category-card">Business</div>
+        <div class="category-card">Sports</div>
+        <div class="category-card">Education</div>
+    </div>
+</section>
+
+<section id="events" class="events">
+    <h2>Upcoming Events</h2>
+
+    <div class="filters">
+        <input type="text" id="searchBox" placeholder="Search Event">
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+            <option value="Music">Music</option>
+            <option value="Technology">Technology</option>
+            <option value="Business">Business</option>
+        </select>
+    </div>
+
+    <div id="eventContainer" class="event-container"></div>
+</section>
+
+<section class="details">
+    <h2>Event Details</h2>
+    <div class="details-box">
+        <h3>Tech Conference 2026</h3>
+        <p>Date: 20 July 2026</p>
+        <p>Time: 10:00 AM</p>
+        <p>Venue: Bangalore Convention Center</p>
+        <p>Organizer: EventHub Team</p>
+        <p>Join industry experts and developers for an exciting technology conference.</p>
+    </div>
+</section>
+
+<section id="booking" class="booking">
+    <h2>Book Your Ticket</h2>
+
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Full Name">
+
+        <input type="email" id="email" placeholder="Email Address">
+
+        <input type="tel" id="phone" placeholder="Phone Number">
+
+        <select id="event">
+            <option>Select Event</option>
+            <option>Tech Conference</option>
+            <option>Music Festival</option>
+            <option>Business Summit</option>
+        </select>
+
+        <input type="number" id="tickets" placeholder="Number of Tickets">
+
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@eventhub.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 EventHub. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+<form id="bookingForm">
+
+<input type="text"
+placeholder="Full Name">
+
+<input type="email"
+placeholder="Email">
+
+<input type="tel"
+placeholder="Phone">
+
+<select>
+<option>Choose Event</option>
+<option>Music Festival</option>
+<option>Tech Conference</option>
+</select>
+
+<input type="number"
+placeholder="Tickets">
+
+<button>
+Book Now
+</button>
+
+</form>
+
+<input
+type="text"
+id="searchBox"
+placeholder="Search Events">
+
+<select id="categoryFilter">
+<option>All</option>
+<option>Music</option>
+<option>Technology</option>
+<option>Business</option>
+</select>
+
+<nav>
+
+<div class="logo">
+EventHub
+</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#booking">Book</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<footer>
+
+<p>
+© 2026 EventHub
+</p>
+
+<div>
+Facebook
+Instagram
+LinkedIn
+</div>
+
+</footer>
